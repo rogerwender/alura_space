@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from galeria.models import Fotografia
+from apps.galeria.models import Fotografia
 
 #campos que aparecem na pagina de publicação do administrador
 class ListandoFotografias(admin.ModelAdmin):
